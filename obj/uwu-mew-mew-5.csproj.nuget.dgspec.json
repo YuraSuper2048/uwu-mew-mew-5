@@ -1,0 +1,71 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/yura/RiderProjects/uwu-mew-mew-5/uwu-mew-mew-5/uwu-mew-mew-5.csproj": {}
+  },
+  "projects": {
+    "/home/yura/RiderProjects/uwu-mew-mew-5/uwu-mew-mew-5/uwu-mew-mew-5.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/yura/RiderProjects/uwu-mew-mew-5/uwu-mew-mew-5/uwu-mew-mew-5.csproj",
+        "projectName": "uwu-mew-mew-5",
+        "projectPath": "/home/yura/RiderProjects/uwu-mew-mew-5/uwu-mew-mew-5/uwu-mew-mew-5.csproj",
+        "packagesPath": "/home/yura/.nuget/packages/",
+        "outputPath": "/home/yura/RiderProjects/uwu-mew-mew-5/uwu-mew-mew-5/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/yura/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Discord.Net": {
+              "target": "Package",
+              "version": "[3.13.0, )"
+            },
+            "SimpleOpenAi": {
+              "target": "Package",
+              "version": "[0.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/yura/.dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
